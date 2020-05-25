@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { isEmpty } from 'lodash'
+// import { isEmpty } from 'lodash'
 
 Vue.mixin({
   methods: {
@@ -9,9 +9,9 @@ Vue.mixin({
       } else {
         return subject.substring(0, (maxLength - 4)) + ' ...'
       }
-    },
-    isEmpty (item) {
-      return isEmpty(item)
     }
+    // isEmpty (item) {
+    //   return isEmpty(item)
+    // }
   }
 })

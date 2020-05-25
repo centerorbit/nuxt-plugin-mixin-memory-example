@@ -17,7 +17,7 @@
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
-        <v-card-text v-if="!isEmpty(description)">
+        <v-card-text>
           <p>{{ elipsify(description) }}</p>
           <p>
             For more information on Vuetify, check out the <a
